@@ -23,7 +23,7 @@ header{
 }
 
 h1{
-    margin-top: 20%;
+    margin-top: 30%;
     text-align: center;
     font-weight: 600;
 }
@@ -39,7 +39,7 @@ h1{
 section.purple-box{
     display: flex;
     justify-content: center;
-    margin-top: 10%;
+    margin-top: 25%;
 }
 
 .box-content{
@@ -47,7 +47,7 @@ section.purple-box{
     align-items: center;
     height: 10vh;
     width: 80%;
-    padding: 2% 3%;
+    padding: 3% 4%;
     background-color: hsl(248, 32%, 49%);
     border-radius: 10px;
     box-shadow: 0px 8px 2px rgb(62, 60, 73, 0.2);
@@ -72,7 +72,7 @@ span{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 60vh;
+    height: 70vh;
     width: 60%;
     margin: 5%  0 5% 8%;
     background-color: #ffffff;
@@ -117,7 +117,7 @@ button{
   
 .icon-error {
     background-image: url(./images/icon-error.svg);
-    background-position-x: 200px;
+    background-position-x: 150px;
     background-position-y: center;
     background-repeat: no-repeat; 
 }
@@ -125,7 +125,7 @@ button{
 .text-error {
     width: 80%;
     text-align: end;
-    font-size: 12px;
+    font-size: 10px;
     color: #ee8c8c;
     
 } 
@@ -165,7 +165,6 @@ footer{
         display: flex;
         justify-content: center;
         height: 20vh;
-        margin-top: 2%;
     }
 
     .p-promotion{
@@ -202,7 +201,11 @@ footer{
 
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1199px){
+@media only screen and (min-width: 768px) and (max-width: 811px){
+    h1{
+        margin-top: 3%;
+    }
+    
     section.purple-box{
         margin-top: 0;
        
@@ -221,11 +224,7 @@ footer{
 
 }
 
-@media only screen and (min-width: 812px) and (max-width: 823px){
-    div.box-content{
-        margin-top: 10%;
-    }
-
+@media only screen and (min-width: 812px) and (max-width: 1199px){
     #form{
         height: 120vh;
     }
@@ -271,11 +270,15 @@ footer{
         text-align: left;
     }
 
+    section.purple-box{
+        margin-top: 15%;
+    }
+
     .box-content{
         width: 74%;
         height: 10vh;
         padding: 0 2%;
-        margin: 4% 6% 2% 0;
+        margin: 0 6% 2% 0;
        
     }
 
